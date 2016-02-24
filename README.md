@@ -5,3 +5,7 @@ Neon custom CSS sheet for Slack web client
 ## Install instructions
 1. [Install Stylish](https://userstyles.org/help/stylish)
 2. [Install the custom CSS](https://userstyles.org/styles/124658/neon-slack)
+
+
+## Background image used
+![Background image](https://raw.githubusercontent.com/Matthew-Smith/neon-slack/master/slackBG.jpg)
