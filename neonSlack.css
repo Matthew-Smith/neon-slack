@@ -366,7 +366,6 @@
 
 	#autocomplete_menu footer {
         background: rgba(16, 16, 16, 1.0) !important;
-        text-shadow: 0px 0px 10px;
     }
 
 	#autocomplete_menu footer .modifier {
@@ -374,7 +373,6 @@
         color: #00C2FF;
         border: 1px solid;
         border-radius: 3px;
-        text-shadow: 0px 0px 10px;
     }
 
     .highlighter_underlay .keyword:before, #autocomplete_menu .history .keyword:before {
