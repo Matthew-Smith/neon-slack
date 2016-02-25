@@ -337,8 +337,8 @@
         top: 6px }
 
     .popover_menu, #menu.popover_menu {
-        background-color: rgba(0, 0, 0, 0.0);
-        border-top: 1px solid #00C2FF;
+        background: rgba(16, 16, 16, 1.0);
+        border: 2px solid #00C2FF;
     }
 
     .popover_menu .arrow_shadow:after {
@@ -362,6 +362,19 @@
 
     #autocomplete_menu footer .modifier:before, #autocomplete_menu header .modifier:before, #autocomplete_menu footer .keyword:before, #autocomplete_menu header .keyword:before, #autocomplete_menu .history .modifier:before, #autocomplete_menu .history .keyword:before {
         border: 1px solid #00C2FF;
+    }
+
+	#autocomplete_menu footer {
+        background: rgba(16, 16, 16, 1.0) !important;
+        text-shadow: 0px 0px 10px;
+    }
+
+	#autocomplete_menu footer .modifier {
+        background: rgba(54, 54, 54, 1.0) !important;
+        color: #00C2FF;
+        border: 1px solid;
+        border-radius: 3px;
+        text-shadow: 0px 0px 10px;
     }
 
     .highlighter_underlay .keyword:before, #autocomplete_menu .history .keyword:before {
