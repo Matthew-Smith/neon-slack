@@ -101,7 +101,6 @@
 
     #loading_indicator, #loading_welcome_msg {
         color: #00C2FF;
-        text-shadow: 0 1px #00C2FF;
     }
 
     #loading_team_menu_bg, #loading_user_menu_bg {
@@ -220,7 +219,6 @@
 
     .dense_theme .file_reference a:not(.member):not(.member_name):not(.icon):not(.timestamp):not(.preview_main_action):not(.preview_show_more):not(.file_preview_action), .inline_attachment a span:hover, .inline_attachment a span:active, .msg_inline_video_buttons_div a, .msg_inline_video_buttons_div a:visited, .inline_attachment .attachment_footer a:hover, .inline_attachment .attachment_footer a:active, .inline_attachment .attachment_ts a:hover, .inline_attachment .attachment_ts a:active, .dense_theme .file_reference:hover a:hover:not(.member):not(.member_name):not(.icon):not(.timestamp),.light_theme ts-message .message_content .message_sender {
         color: #01FD86 !important;
-        text-shadow: 0px 0px 15px #01FD86;
     }
 
     .light_theme .msg_inline_img_holder, .light_theme .msg_inline_video_holder, .dense_theme .msg_inline_img, .dense_theme .msg_inline_video {
@@ -570,7 +568,6 @@
         background: -moz-linear-gradient(center bottom,rgba(0, 0, 0, 0.4) 0,#1C526B 100%);
         background: -o-linear-gradient(#1C526B,rgba(0, 0, 0, 0.4));
         color: #00C2FF;
-        text-shadow: 0 1px 1px #00C2FF;
         border: 2px solid #00C2FF;
         border-right: none;
     }
@@ -596,7 +593,6 @@
         background: #1C526B;
         color: #c0c0c0;
         border-bottom: 1px solid #00C2FF;
-        text-shadow: 0 1px #00C2FF;
     }
 
     #chat_input_tab_ui ul.type_emoji li, #menu.file_menu ul li i.file_menu_icon, #menu.file_menu ul li > a {
@@ -612,7 +608,6 @@
         background: rgba(0, 0, 0, 0.4);
         color: #c0c0c0;
         border-bottom-color: #00C2FF;
-        text-shadow: 0 1px rgba(0,0,0,0.1);
     }
 
     #chat_input_tab_ui li.chat_input_tab_item, .tab_complete_ui li.tab_complete_ui_item.active, .tab_complete_ui li.tab_complete_ui_item:hover {
@@ -810,7 +805,6 @@
         background: rgba(0, 0, 0, 0.4);
         color: #FFF;
         border-bottom: 1px solid #00C2FF;
-        text-shadow: 0 1px 0 rgba(255,255,255,0.2);
     }
 
     #flex_menu_header, #flex_menu_footer {
@@ -920,13 +914,11 @@
     #new_prefs_dialog .modal-nav a, #fs_modal .fs_modal_btn:hover {
         background: #1C526B;
         color: #c0c0c0;
-        text-shadow: 0 1px 0 #000;
     }
 
     #new_prefs_dialog .modal-nav a.active {
         background: rgba(0, 0, 0, 0.4);
         color: #c0c0c0;
-        text-shadow: 0 1px 0 rgba(255,255,255,0.1);
     }
 
     .chzn-container-multi .chzn-choices {
@@ -1134,7 +1126,6 @@
     .alert {
         background-color: rgba(0, 0, 0, 0.4);
         border: 1px solid #00C2FF;
-        text-shadow: 0 1px 0 rgba(0,0,0,0.5);
     }
 
     .alert-info, footer {
@@ -1146,7 +1137,6 @@
     .radio_selection, .billing_selection {
         color: #c0c0c0!important;
         border: 2px solid #00C2FF;
-        text-shadow: 0 1px 1px rgba(0,0,0,0.5);
     }
 
     .radio_selection .mini, .slate_blue {
@@ -1180,7 +1170,6 @@
 
     #plan_lite, #plan_enterprise {
         border: 1px solid #332631;
-        text-shadow: 0 1px 1px rgba(0,0,0,0.5);
     }
 
     #plan_lite:hover, #plan_enterprise:hover {
