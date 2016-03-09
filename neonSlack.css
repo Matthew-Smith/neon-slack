@@ -2,7 +2,7 @@
     body {
         background: rgba(0, 0, 0, 0.0);
         color: #c0c0c0;
-        background-image: url("http://localhost/photos/slackBG.jpg") !important;
+        background-image: url("https://raw.githubusercontent.com/Matthew-Smith/neon-slack/master/slackBG.jpg") !important;
         background-size: 100% 120%;
         background-repeat: no-repeat;
     }
