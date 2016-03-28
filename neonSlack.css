@@ -1,8 +1,7 @@
 @-moz-document regexp("https\:\/\/.*\.slack\.com\/messages.*") {
     body {
-        background: rgba(0, 0, 0, 0.0);
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://raw.githubusercontent.com/Matthew-Smith/neon-slack/master/slackBG.jpg');
         color: #c0c0c0;
-        background-image: url("https://raw.githubusercontent.com/Matthew-Smith/neon-slack/master/slackBG.jpg") !important;
         background-size: 100% 120%;
         background-repeat: no-repeat;
     }
