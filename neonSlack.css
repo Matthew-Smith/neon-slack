@@ -8,7 +8,6 @@
 
     a, a:link, a:visited {
         color: #8551FB;
-        text-shadow: 0px 0px 10px #8551FB;
     }
 
     a:hover, a:active, a:focus {
@@ -101,7 +100,6 @@
 
     #loading_indicator, #loading_welcome_msg {
         color: #00C2FF;
-        text-shadow: 0 1px #00C2FF;
     }
 
     #loading_team_menu_bg, #loading_user_menu_bg {
@@ -175,7 +173,6 @@
         text-decoration: underline;
         background: rgba(0, 0, 0, 0);
         border: 1px solid #00C2FF;
-        text-shadow: 0px 0px 10px;
     }
 
     #message_edit_form #cancel_edit:hover, #message_edit_form #commit_edit:hover {
@@ -191,12 +188,10 @@
     .menu_member_header {
         background: rgba(0, 0, 0, 0);
         color: #00C2FF !important;
-        text-shadow: 0px 0px 10px;
     }
 
     .menu_member_header .member_details .member_restriction, .menu_member_header .member_details .member_timezone_value {
         color: #00C2FF !important;
-        text-shadow: 0px 0px 10px;
     }
 
     .menu_member_user_details {
@@ -223,7 +218,6 @@
 
     .dense_theme .file_reference a:not(.member):not(.member_name):not(.icon):not(.timestamp):not(.preview_main_action):not(.preview_show_more):not(.file_preview_action), .inline_attachment a span:hover, .inline_attachment a span:active, .msg_inline_video_buttons_div a, .msg_inline_video_buttons_div a:visited, .inline_attachment .attachment_footer a:hover, .inline_attachment .attachment_footer a:active, .inline_attachment .attachment_ts a:hover, .inline_attachment .attachment_ts a:active, .dense_theme .file_reference:hover a:hover:not(.member):not(.member_name):not(.icon):not(.timestamp),.light_theme ts-message .message_content .message_sender {
         color: #01FD86 !important;
-        text-shadow: 0px 0px 15px #01FD86;
     }
 
     .light_theme .msg_inline_img_holder, .light_theme .msg_inline_video_holder, .dense_theme .msg_inline_img, .dense_theme .msg_inline_video {
@@ -263,7 +257,6 @@
         font-weight: 500;
         color: #8551FB;
         padding: 3px;
-        text-shadow: 0px 0px 10px #8551FB;
     }
 
     .inline_attachment iframe, .inline_attachment .iframe_placeholder {
@@ -312,12 +305,10 @@
 
     #active_channel_name .topic {
         color: #00C2FF;
-        text-shadow: 0px 0px 10px;
     }
 
     #active_channel_name:hover .prefix, #channel_header .star, #flex_menu .fa-list-ul, #active_channel_name i, #channel_members_toggle:hover, #channel_members_toggle:hover .channel_members_toggle_icon, #details_tab .channel_page_section .section_header:hover .disclosure_triangle, #details_tab .channel_page_member_row a, #details_tab .created_by, #details_tab .channel_page_action .leave_link:hover {
         color: #00C2FF;
-        text-shadow: 0px 0px 10px;
     }
 
     .channel_page_members_highlighter, .msg_highlighter, .channel_page_pinned_items_highlighter {
@@ -336,7 +327,6 @@
         background: #1C526B;
         border: 1px solid rgba(0, 0, 0, 0.0);
         color: #00C2FF;
-        text-shadow: 0px 0px 10px;
     }
 
     #search_results_items .search_paging, #paging_in_options .search_paging, #autocomplete_menu, #autocomplete_menu .keyword_match .modifier, .search_form .icon_search, .search_message_result .search_message_result_meta a, .search_message_result .search_message_result_meta .date_links a, #header_search_form.search_form .icon_search {
@@ -466,19 +456,16 @@
 
     #member_preview_scroller .member_details .member_name_and_presence .member_name, #member_preview_web_container .member_details .member_name_and_presence .member_name, .menu_member_header .member_details .member_name_and_presence .member_name {
         color: #00C2FF;
-        text-shadow: 0px 0px 10px;
     }
 
     #member_preview_scroller .member_details .member_title, #member_preview_web_container .member_details .member_title, .menu_member_header .member_details .member_title {
         color: #8551FB;
-        text-shadow: 0px 0px 10px;
 
 
     }
 
     #member_preview_scroller .member_data_table a {
         color: #8551FB !important;
-        text-shadow: 0px 0px 10px;
     }
 
     #member_preview_scroller .member_data_table tr {
@@ -580,7 +567,6 @@
         background: -moz-linear-gradient(center bottom,rgba(0, 0, 0, 0.4) 0,#1C526B 100%);
         background: -o-linear-gradient(#1C526B,rgba(0, 0, 0, 0.4));
         color: #00C2FF;
-        text-shadow: 0 1px 1px #00C2FF;
         border: 2px solid #00C2FF;
         border-right: none;
     }
@@ -606,7 +592,6 @@
         background: #1C526B;
         color: #c0c0c0;
         border-bottom: 1px solid #00C2FF;
-        text-shadow: 0 1px #00C2FF;
     }
 
     #chat_input_tab_ui ul.type_emoji li, #menu.file_menu ul li i.file_menu_icon, #menu.file_menu ul li > a {
@@ -622,7 +607,6 @@
         background: rgba(0, 0, 0, 0.4);
         color: #c0c0c0;
         border-bottom-color: #00C2FF;
-        text-shadow: 0 1px rgba(0,0,0,0.1);
     }
 
     #chat_input_tab_ui li.chat_input_tab_item, .tab_complete_ui li.tab_complete_ui_item.active, .tab_complete_ui li.tab_complete_ui_item:hover {
@@ -814,14 +798,12 @@
         background: rgba(0, 0, 0, 0.4);
         color: #00C2FF;
         border-bottom: 1px solid #00C2FF;
-        text-shadow: 0px 0px 10px;
     }
 
     #menu ul li.highlighted a, .menu_example ul li.highlighted a, #menu ul li.file_menu_item.highlighted a, #menu .flexpane_menu_item.highlighted a, .dropdown-menu > li > a:hover {
         background: rgba(0, 0, 0, 0.4);
         color: #FFF;
         border-bottom: 1px solid #00C2FF;
-        text-shadow: 0 1px 0 rgba(255,255,255,0.2);
     }
 
     #flex_menu_header, #flex_menu_footer {
@@ -931,13 +913,11 @@
     #new_prefs_dialog .modal-nav a, #fs_modal .fs_modal_btn:hover {
         background: #1C526B;
         color: #c0c0c0;
-        text-shadow: 0 1px 0 #000;
     }
 
     #new_prefs_dialog .modal-nav a.active {
         background: rgba(0, 0, 0, 0.4);
         color: #c0c0c0;
-        text-shadow: 0 1px 0 rgba(255,255,255,0.1);
     }
 
     .chzn-container-multi .chzn-choices {
@@ -1145,7 +1125,6 @@
     .alert {
         background-color: rgba(0, 0, 0, 0.4);
         border: 1px solid #00C2FF;
-        text-shadow: 0 1px 0 rgba(0,0,0,0.5);
     }
 
     .alert-info, footer {
@@ -1157,7 +1136,6 @@
     .radio_selection, .billing_selection {
         color: #c0c0c0!important;
         border: 2px solid #00C2FF;
-        text-shadow: 0 1px 1px rgba(0,0,0,0.5);
     }
 
     .radio_selection .mini, .slate_blue {
@@ -1191,7 +1169,6 @@
 
     #plan_lite, #plan_enterprise {
         border: 1px solid #332631;
-        text-shadow: 0 1px 1px rgba(0,0,0,0.5);
     }
 
     #plan_lite:hover, #plan_enterprise:hover {
@@ -1309,7 +1286,6 @@
         color: #f9c5ca;
         border: 1px solid #00C2FF;
         border-radius: 3px;
-        text-shadow: 0px 0px 10px #df142a;
         font-weight: 400;
         margin: -10px 20px 9px 0px;
         padding-top: 2px;
@@ -1318,17 +1294,14 @@
 
     .light_theme .message {
         color: #ACAEB6;
-        text-shadow: 0px 0px 10px;
     }
 
     .day_divider .day_divider_label {
-        text-shadow: 0px 0px 10px;
     }
 
 
     #team_name {
         color: #df142a;
-        text-shadow: 0px 0px 10px;
     }
 
     #message_edit_form .emo_menu, #messages-input-container .emo_menu, .inline_message_input_container .emo_menu {
@@ -1337,17 +1310,14 @@
 
     #footer a {
         color: #00C2FF;
-        text-shadow: 0px 0px 10px;
     }
 
     ts-icon {
         color: #00C2FF;
-        text-shadow: 0px 0px 10px;
     }
 
     #active_channel_name i, #active_channel_name .name{
         color: #00C2FF;
-        text-shadow: 0px 0px 10px;
     }
 
     ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight), ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight) {
@@ -1357,18 +1327,15 @@
     ts-message .action_hover_container a {
     	background: rgba(16,16,16,0.8);
         color: #00C2FF;
-        text-shadow: 0px 0px 10px #00C2FF;
     }
 
     .file_container .preview_actions .btn {
     	background: rgba(16,16,16,0.8);
         color: #00C2FF;
-        text-shadow: 0px 0px 10px #00C2FF;
     }
 
     #im-list .presence.active, #starred-list .presence.active {
         color: #FFCC00;
-        text-shadow: 0px 0px 10px;
     }
 
     #col_channels ul li.channel.active a.channel_name, #col_channels ul li.group.active a.group_name, #col_channels ul li.member.active a.im_name, #col_channels ul li.mpim.active a.mpim_name {
@@ -1379,13 +1346,11 @@
 
     #presence.active:before {
         color: #FFCC00;
-        text-shadow: 0px 0px 10px;
     }
 
     #channel_list_invites_link {
         opacity: 0.9;
         color: #00C2FF;
-        text-shadow: 0px 0px 10px;
     }
 
     .file_container {
@@ -1402,22 +1367,18 @@
     .channels_list_new_btn {
         color: #00C2FF;
         opacity: 0.3;
-        text-shadow: 0px 0px 10px;
     }
 
     .channels_list_holder h2 {
         color: #00C2FF;
-        text-shadow: 0px 0px 10px;
     }
 
     i.ts_icon.ts_icon_star {
         color: #FFCC00;
-        text-shadow: 0px 0px 10px;
     }
 
     .channels_list_holder ul li a {
         color: #acaeb6;
-        text-shadow: 0px 0px 10px;
     }
 
     .channels_list_holder ul li a:hover {
@@ -1443,11 +1404,9 @@
 
     .fs_modal_file_viewer_header .control_btn, .fs_modal_file_viewer_header .control_btn:link, .fs_modal_file_viewer_header .control_btn:visited, .fs_modal_file_viewer_header a.control_btn, .fs_modal_file_viewer_header a.control_btn:link, .fs_modal_file_viewer_header a.control_btn:visited {
         color: #00C2FF !important;
-        text-shadow: 0px 0px 10px;
     }
 
     #message_edit_container form textarea {
-        text-shadow: 0px 0px 10px;
     }
 
     .snippet_preview, .special_formatting, .CodeMirror, code, .icon_loading, pre, .backup_codes_wrapper, nav.top.persistent .logo {
@@ -1465,9 +1424,8 @@
     	background: rgba(0, 0, 0, 0);
     }
 
-    .channel_header_refresh #client_body:not(.onboarding):before {
-    	background: rgba(0, 0, 0, 0);
-        border-bottom: 0px;
+    #client_body:not(.onboarding):before {
+        display: none;
     }
 
     #client_header .channel_header .channel_name_container .channel_name {
