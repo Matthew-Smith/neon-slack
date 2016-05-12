@@ -1465,9 +1465,8 @@
     	background: rgba(0, 0, 0, 0);
     }
 
-    .channel_header_refresh #client_body:not(.onboarding):before {
-    	background: rgba(0, 0, 0, 0);
-        border-bottom: 0px;
+    #client_body:not(.onboarding):before {
+        display: none;
     }
 
     #client_header .channel_header .channel_name_container .channel_name {
