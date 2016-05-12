@@ -1,8 +1,7 @@
 @-moz-document regexp("https\:\/\/.*\.slack\.com\/messages.*") {
     body {
-        background: rgba(0, 0, 0, 1.0);
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://raw.githubusercontent.com/Matthew-Smith/neon-slack/master/slackBG.jpg');
         color: #c0c0c0;
-        background-image: url("http://localhost/photos/slackBG.jpg") !important;
         background-size: 100% 120%;
         background-repeat: no-repeat;
     }
@@ -337,8 +336,8 @@
         top: 6px }
 
     .popover_menu, #menu.popover_menu {
-        background: rgba(16, 16, 16, 1.0);
-        border: 2px solid #00C2FF;
+        background-color: rgba(0, 0, 0, 0.0);
+        border-top: 1px solid #00C2FF;
     }
 
     .popover_menu .arrow_shadow:after {
@@ -362,17 +361,6 @@
 
     #autocomplete_menu footer .modifier:before, #autocomplete_menu header .modifier:before, #autocomplete_menu footer .keyword:before, #autocomplete_menu header .keyword:before, #autocomplete_menu .history .modifier:before, #autocomplete_menu .history .keyword:before {
         border: 1px solid #00C2FF;
-    }
-
-	#autocomplete_menu footer {
-        background: rgba(16, 16, 16, 1.0) !important;
-    }
-
-	#autocomplete_menu footer .modifier {
-        background: rgba(54, 54, 54, 1.0) !important;
-        color: #00C2FF;
-        border: 1px solid;
-        border-radius: 3px;
     }
 
     .highlighter_underlay .keyword:before, #autocomplete_menu .history .keyword:before {
@@ -1425,5 +1413,45 @@
         filter: invert(100%);
         -moz-filter: invert(100%);
         -webkit-filter: invert(100%);
+    }
+
+	#client_header .channel_header {
+		background: rgba(0, 0, 0, 0.4) !important;
+        border-bottom: 1px solid #00C2FF;
+	}
+
+	#client_header .channel_header #channel_header_info, #client_header .channel_header .flex_header, #client_header .channel_header .channel_title_info {
+    	background: rgba(0, 0, 0, 0);
+    }
+
+    .channel_header_refresh #client_body:not(.onboarding):before {
+    	background: rgba(0, 0, 0, 0);
+        border-bottom: 0px;
+    }
+
+    #client_header .channel_header .channel_name_container .channel_name {
+		color: #01FD86;
+		text-shadow: 0px 0px 10px;
+    }
+    
+    #im_browser #im_list_container:not(.keyboard_active).not_scrolling .im_browser_row:hover, #im_browser .im_browser_row.highlighted {
+        background: rgba(16, 16, 16, 0.7);
+    }
+
+    #client_header .channel_header .channel_header_icon#details_toggle.active:hover, #client_header .channel_header .channel_header_icon#recent_mentions_toggle.active:hover, #client_header .channel_header .channel_header_icon#stars_toggle.active:hover {
+        background: rgba(0, 0, 0, 0);
+    }
+	
+    ts-icon:hover {
+        color: #FFCC00;
+    }
+
+    .tab_container .file_comment_item .actions .btn_icon, .tab_container .file_comment_item .actions .star_jump, .tab_container .file_list_item .actions .btn_icon, .tab_container .file_list_item .actions .star_jump, .tab_container .star_item .message .actions .btn_icon, .tab_container .star_item .message .actions .star_jump, .tab_container .star_item ts-message .actions .btn_icon, .tab_container .star_item ts-message .actions .star_jump {
+        background-color: rgba(32, 32, 32, 0.9);
+    }
+
+    #flex_contents .subheading {
+        background: rgba(0,0,0,0);
+        color: #00C2FF;
     }
 }
