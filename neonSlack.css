@@ -1340,8 +1340,9 @@
 
     #col_channels ul li.channel.active a.channel_name, #col_channels ul li.group.active a.group_name, #col_channels ul li.member.active a.im_name, #col_channels ul li.mpim.active a.mpim_name {
     	background: rgba(0,0,0,0.5);
-        /*background: #8551FB;*/
-        box-shadow: inset -1px 0px 15px #8551FB;
+        border-color: #4B2F8A;
+        border-style: solid none;
+        border-width: 1px;
     }
 
     #presence.active:before {
