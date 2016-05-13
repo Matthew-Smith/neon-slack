@@ -9,3 +9,5 @@ Neon custom CSS sheet for Slack web client
 
 ## Background image used
 ![Background image](https://raw.githubusercontent.com/Matthew-Smith/neon-slack/master/slackBG.jpg)
+
+[Buy me a coffee on Pledgie!](https://pledgie.com/campaigns/31674)
