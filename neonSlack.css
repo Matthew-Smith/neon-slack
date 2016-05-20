@@ -570,7 +570,7 @@
         border-bottom-color: #c0c0c0;
         color: #c0c0c0!important }
 
-    #footer {
+    #footer:not(.footer_msg_input) {
         background: rgba(0, 0, 0, 0.4) }
 
     #messages-input-container.new_msg_input #primary_file_button {
@@ -1475,7 +1475,7 @@
 		color: #01FD86;
 		text-shadow: 0px 0px 10px;
     }
-    
+
     #im_browser #im_list_container:not(.keyboard_active).not_scrolling .im_browser_row:hover, #im_browser .im_browser_row.highlighted {
         background: rgba(16, 16, 16, 0.7);
     }
@@ -1483,7 +1483,7 @@
     #client_header .channel_header .channel_header_icon#details_toggle.active:hover, #client_header .channel_header .channel_header_icon#recent_mentions_toggle.active:hover, #client_header .channel_header .channel_header_icon#stars_toggle.active:hover {
         background: rgba(0, 0, 0, 0);
     }
-	
+
     ts-icon:hover {
         color: #FFCC00;
     }
