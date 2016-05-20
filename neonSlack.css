@@ -1,8 +1,7 @@
 @-moz-document regexp("https\:\/\/.*\.slack\.com\/messages.*") {
     body {
-        background: rgba(0, 0, 0, 1.0);
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://raw.githubusercontent.com/Matthew-Smith/neon-slack/master/slackBG.jpg');
         color: #c0c0c0;
-        background-image: url("http://localhost/photos/slackBG.jpg") !important;
         background-size: 100% 120%;
         background-repeat: no-repeat;
     }
@@ -364,17 +363,6 @@
         border: 1px solid #00C2FF;
     }
 
-	#autocomplete_menu footer {
-        background: rgba(16, 16, 16, 1.0) !important;
-    }
-
-	#autocomplete_menu footer .modifier {
-        background: rgba(54, 54, 54, 1.0) !important;
-        color: #00C2FF;
-        border: 1px solid;
-        border-radius: 3px;
-    }
-
     .highlighter_underlay .keyword:before, #autocomplete_menu .history .keyword:before {
         border-left: 0 }
 
@@ -569,7 +557,7 @@
         border-bottom-color: #c0c0c0;
         color: #c0c0c0!important }
 
-    #footer {
+    #footer:not(.footer_msg_input) {
         background: rgba(0, 0, 0, 0.4) }
 
     #messages-input-container.new_msg_input #primary_file_button {
