@@ -1,5 +1,5 @@
 @-moz-document regexp("https\:\/\/.*\.slack\.com\/messages.*") {
-    body {
+body {
         background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://raw.githubusercontent.com/Matthew-Smith/neon-slack/master/slackBG.jpg');
         color: #c0c0c0;
         background-size: 100% 120%;
@@ -1495,5 +1495,32 @@
     #flex_contents .subheading {
         background: rgba(0,0,0,0);
         color: #00C2FF;
+    }
+
+    #col_channels_footer {
+        background: rgba(0,0,0,0);
+    }
+
+    #client_header .channel_header .channel_header_icon#details_toggle.active, #client_header .channel_header .channel_header_icon#recent_mentions_toggle.active, #client_header .channel_header .channel_header_icon#stars_toggle.active {
+        background: rgba(0, 100, 74, 1);
+        box-shadow: 0 0 5px rgba(0, 200, 150, 1);
+    }
+
+	#messages_container.has_top_messages_banner:before {
+        background: rgba(0, 0, 0, 0);
+    }
+    .supports_custom_scrollbar .team_menu.slack_menu .menu_content {
+        background: rgba(16, 16, 16, 1.0);
+    }
+
+    body:not(.loading) #team_menu.active, body:not(.loading) #team_menu:hover {
+        background: rgba(16, 16, 16, 1.0);
+    }
+    .mention_day_container_div .day_divider:before {
+        background: rgba(0, 0, 0, 0);
+    }
+
+    .supports_custom_scrollbar .autocomplete_menu_scrollable {
+        background: rgba(0, 0, 0, 0);
     }
 }
