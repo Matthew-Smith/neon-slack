@@ -2,7 +2,6 @@
     body {
         background: rgba(0, 0, 0, 1.0);
         color: #c0c0c0;
-        background-image: url("http://localhost/photos/slackBG.jpg") !important;
         background-size: 100% 120%;
         background-repeat: no-repeat;
     }
@@ -236,7 +235,7 @@
     .light_theme .message.joined .message_content, .light_theme .message.left .message_content, .light_theme .message.topic .message_content, .light_theme .message.purpose .message_content, .light_theme .message.rename .message_content, .light_theme .message.archived .message_content, .light_theme .message.unarchived .message_content, .dense_theme .message.joined, .dense_theme .message.left, .dense_theme .message.topic, .dense_theme .message.purpose, .dense_theme .message.rename, .dense_theme .message.archived, .dense_theme .message.unarchived, .star, .light_theme .message .timestamp, .dense_theme .message .timestamp, .message .edited, .light_theme .message .meta, .dense_theme .message .meta, .dense_theme .message.first .timestamp, .light_theme .message.unprocessed, .dense_theme .message.unprocessed, .light_theme .message:hover .timestamp, .dense_theme .message:hover .timestamp, .dense_theme .file_reference a:not(.member):not(.member_name):not(.icon):not(.timestamp), .dense_theme .file_reference:hover a:not(.member):not(.member_name):not(.icon):not(.timestamp), a.member_preview_link.member_name, .inline_attachment span.attachment_author_subname, .inline_attachment span.attachment_service_name, .inline_attachment span.attachment_author_name, .inline_attachment .attachment_ts a, .inline_attachment .attachment_footer a, .help i.callout, .file_inline_icon, .dense_theme .message.pinned .pinned_item_message_header a {
         color: #00C2FF }
 
-    message.active:not(.standalone):not(.multi_delete_mode), ts-message:hover:not(.standalone):not(.multi_delete_mode) {
+    ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply), ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply) {
       background: #4A5664;
     }
 
@@ -583,7 +582,7 @@
         border-right: none;
     }
 
-    #messages-input-container.new_msg_input #primary_file_button:hover, #messages-input-container.new_msg_input #primary_file_button.active {
+    #messages-input-container.new_msg_input #primary_file_button:hover, #messages-input-container.new_msg_input #primary_file_button.active, #msg_input.focus, #msg_input:focus, #msg_input {
         background: rgba(0, 0, 0, 0.4);
         color: #c0c0c0;
         border-color: #00C2FF;
