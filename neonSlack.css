@@ -557,7 +557,7 @@
         border-bottom-color: #c0c0c0;
         color: #c0c0c0!important }
 
-    #footer {
+    #footer:not(.footer_msg_input) {
         background: rgba(0, 0, 0, 0.4) }
 
     #messages-input-container.new_msg_input #primary_file_button {
