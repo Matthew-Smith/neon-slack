@@ -1464,4 +1464,79 @@
         background: rgba(0,0,0,0);
         color: #00C2FF;
     }
+    .supports_custom_scrollbar .autocomplete_menu_scrollable, .p-channel_sidebar, .client_channels_list_container {
+        background: rgba(0, 0, 0, 0);
+    }
+
+    .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar) {
+        background: rgba(0, 0, 0, 0);
+    }
+
+    .c-message__sender_link {
+        color: #01FD86 !important;
+    }
+    .c-message__body {
+        color: #c0c0c0;
+    }
+
+    .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
+        background: rgba(16, 16, 16, 0.8);
+    }
+
+
+    .c-timestamp__label {
+        color: #00C2FF;
+    }
+
+    .c-message_actions__container {
+        background: rgba(16, 16, 16, 0.9);
+        color: #c0c0c0;
+    }
+
+    .c-menu {
+        background: rgba(16, 16, 16, 0.8);
+    }
+    .c-menu_item__label {
+        color: #c0c0c0;
+    }
+
+    .p-channel_sidebar__section_heading_plus, .p-channel_sidebar__folder_heading_label, .p-channel_sidebar__section_heading_label {
+        color: #00C2FF;
+    }
+    .c-message_list__day_divider__line {
+        border-top: 1px solid #00C2FF;
+
+    }
+
+    .c-message_list__day_divider__label__pill {
+        background: rgba(16,16,16,0.8);
+        color: #00C2FF;
+        border: 2px solid #00C2FF;
+
+    }
+
+    .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before {
+        background: rgba(0,0,0,0);
+    }
+
+    .p-channel_sidebar__name {
+        color: #c0c0c0;
+    }
+
+    .p-channel_sidebar__channel--im .c-presence--active, .p-channel_sidebar__channel--im-slackbot:before {
+        color: #01FD86;
+    }
+
+    .p-channel_sidebar__channel--im .c-presence--away {
+        color: #FD5F00;
+    }
+
+    .p-channel_sidebar__channel:before {
+        color: #00C2FF;
+    }
+
+    .c-scrollbar__bar {
+        background: #00C2FF;
+
+    }
 }
